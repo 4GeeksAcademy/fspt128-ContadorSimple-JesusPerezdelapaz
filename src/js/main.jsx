@@ -11,6 +11,7 @@ import '../styles/index.css'
 // components
 import Home from './components/Home';
 
+
 const reactRender = ReactDOM.createRoot(document.getElementById('root'))
 
 let s1 = 0;
@@ -19,7 +20,7 @@ let m1 = 0;
 let m2 = 0;
 let h1 = 0;
 let h2 = 0;
- 
+
 setInterval(() => {
   reactRender.render(
   <React.StrictMode>
@@ -50,10 +51,5 @@ setInterval(() => {
     return
        
 }, 1000)
-
-
- 
-
-
 
 

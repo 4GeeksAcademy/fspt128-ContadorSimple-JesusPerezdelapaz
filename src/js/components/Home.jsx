@@ -9,7 +9,7 @@ import '../../styles/index.css'
 const Home = (props) => {
 
 	return (
-		<div className="container text-center justify-content-around d-flex mx-auto">
+		<div className="container text-center justify-content-around d-flex flex-column mx-auto">
 			<div className="fondo d-flex text-center my-5 mx-auto">
 				<div className="digito me-3"><i className="fa-regular fa-clock"></i></div>
 				<div id="h1" className="digito">{props.h2}</div>

@@ -59,3 +59,21 @@
 //         </div>
 //     )
 // }
+
+// export const Reset = (props) => {
+//     const handlerClick = (e)=>{
+//        return 
+       
+        
+//     }
+//     return(
+//         <>
+        
+//         <div className="container d-flex justify-content-center">
+//             <button type="button"  onClick={handlerClick} className="btn btn-primary w-25 m-auto">Reiniciar</button>
+//         </div>
+        
+//         </>
+        
+//     )
+// }
